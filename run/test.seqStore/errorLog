@@ -1,0 +1,8 @@
+read 'Lread16' of length 10000 in file '/home/zmx/c++/毕设/simulate2/long_sub_seq/long_sub_seq.fasta' - trimmed 1 non-ACGT bases from the 5' end.
+read 'Lread27' of length 10000 in file '/home/zmx/c++/毕设/simulate2/long_sub_seq/long_sub_seq.fasta' - trimmed 1 non-ACGT bases from the 3' end.
+read 'Lread33' of length 10000 in file '/home/zmx/c++/毕设/simulate2/long_sub_seq/long_sub_seq.fasta' - trimmed 1 non-ACGT bases from the 5' end.
+read 'Lread67' of length 10000 in file '/home/zmx/c++/毕设/simulate2/long_sub_seq/long_sub_seq.fasta' - trimmed 1 non-ACGT bases from the 5' end.
+read 'Lread73' of length 10000 in file '/home/zmx/c++/毕设/simulate2/long_sub_seq/long_sub_seq.fasta' - trimmed 1 non-ACGT bases from the 5' end.
+read 'Lread80' of length 10000 in file '/home/zmx/c++/毕设/simulate2/long_sub_seq/long_sub_seq.fasta' - trimmed 1 non-ACGT bases from the 5' end.
+read 'Lread82' of length 10000 in file '/home/zmx/c++/毕设/simulate2/long_sub_seq/long_sub_seq.fasta' - trimmed 1 non-ACGT bases from the 3' end.
+read 'Lread83' of length 10000 in file '/home/zmx/c++/毕设/simulate2/long_sub_seq/long_sub_seq.fasta' - trimmed 1 non-ACGT bases from the 3' end.

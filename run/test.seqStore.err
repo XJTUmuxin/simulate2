@@ -1,0 +1,130 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 30, subversion 0 (v5.30.0) built for x86_64-linux-gnu-thread-multi
+
+Found java:
+   /usr/local/java/jdk1.8.0_321/bin/java
+   java version "1.8.0_321"
+
+Found canu:
+   /home/zmx/work/canu/build/bin/canu
+   canu snapshot v2.3-development +13 changes (r10284 08b0347f8655ed977a2ac75d35be198601bd7b3d)
+
+
+Creating library 'long_sub_seq' for PacBio raw reads.
+
+               reads               bases
+---------- --------- ------ ------------ ------
+Invalid base N detected at position 1
+Invalid base N detected at position 5
+Invalid base N detected at position 6
+Invalid base N detected at position 15
+Invalid base N detected at position 36
+Invalid base N detected at position 30
+Invalid base N detected at position 2
+Invalid base N detected at position 13
+Invalid base N detected at position 54
+Invalid base N detected at position 62
+Invalid base N detected at position 32
+Invalid base N detected at position 39
+Invalid base N detected at position 31
+Invalid base N detected at position 68
+Invalid base N detected at position 25
+Invalid base N detected at position 10
+Invalid base N detected at position 10
+Invalid base N detected at position 31
+Invalid base N detected at position 3
+Invalid base N detected at position 23
+Invalid base N detected at position 16
+Invalid base N detected at position 56
+Invalid base N detected at position 66
+Invalid base N detected at position 30
+Invalid base N detected at position 22
+Invalid base N detected at position 6
+Invalid base N detected at position 8
+Invalid base N detected at position 7
+Invalid base N detected at position 4
+Invalid base N detected at position 17
+Invalid base N detected at position 37
+Invalid base N detected at position 43
+Invalid base N detected at position 12
+Invalid base N detected at position 9
+Invalid base N detected at position 6
+Invalid base N detected at position 46
+Invalid base N detected at position 24
+Invalid base N detected at position 9
+Invalid base N detected at position 3
+Invalid base N detected at position 25
+Invalid base N detected at position 18
+Invalid base N detected at position 3
+Invalid base N detected at position 120
+Invalid base N detected at position 34
+Invalid base N detected at position 1
+Invalid base N detected at position 26
+Invalid base N detected at position 20
+Invalid base N detected at position 10
+Invalid base N detected at position 33
+Invalid base N detected at position 5
+Invalid base N detected at position 84
+Invalid base N detected at position 28
+Invalid base N detected at position 2
+Invalid base N detected at position 31
+Invalid base N detected at position 31
+Invalid base N detected at position 99
+Invalid base N detected at position 21
+Invalid base N detected at position 69
+Invalid base N detected at position 130
+Invalid base N detected at position 30
+Invalid base N detected at position 11
+Invalid base N detected at position 3
+Invalid base N detected at position 20
+Invalid base N detected at position 38
+Invalid base N detected at position 15
+Invalid base N detected at position 4
+Invalid base N detected at position 26
+Invalid base N detected at position 24
+Invalid base N detected at position 11
+Invalid base N detected at position 23
+Invalid base N detected at position 5
+Invalid base N detected at position 4
+Invalid base N detected at position 7
+Invalid base N detected at position 38
+Invalid base N detected at position 17
+Invalid base N detected at position 3
+Invalid base N detected at position 3
+Invalid base N detected at position 43
+Invalid base N detected at position 21
+Invalid base N detected at position 9
+Invalid base N detected at position 21
+Invalid base N detected at position 6
+Invalid base N detected at position 9
+Invalid base N detected at position 4
+Invalid base N detected at position 19
+Invalid base N detected at position 4
+Invalid base N detected at position 25
+Invalid base N detected at position 3
+Invalid base N detected at position 39
+Invalid base N detected at position 5
+Invalid base N detected at position 8
+Invalid base N detected at position 1
+Invalid base N detected at position 45
+Invalid base N detected at position 27
+Invalid base N detected at position 17
+Invalid base N detected at position 28
+Invalid base N detected at position 8
+Invalid base N detected at position 3
+Invalid base N detected at position 3
+Invalid base N detected at position 4
+Invalid base N detected at position 64
+Loaded           101 100.0%      1009992 100.0%  /home/zmx/c++/毕设/simulate2/long_sub_seq/long_sub_seq.fasta
+
+
+All reads processed.
+
+               reads               bases
+---------- --------- ------ ------------ ------
+Loaded           101 100.0%      1009992 100.0%
+
+
+Bye.

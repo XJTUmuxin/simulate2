@@ -1,9 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
+string init_seq_path = "./../init_seq/";
+string long_sub_seq_path = "./../long_sub_seq/";
+string short_sub_seq_path = "./../short_sub_seq/";
 int expect_len = 100000;   
 int long_sub_len = 10000;
 int short_sub_len = 100;
-int long_sub_num = 10;
+int long_sub_num = 101;
 int short_sub_num = 1000;
 int min_mic_len = 100;
 int max_mic_len = 1000;
@@ -22,12 +25,12 @@ void create_init_seq(string& init_seq){
     m_indexs.push_back(INT_MAX);
     int m_num = 0;
     int m_index = m_indexs[m_num];
-    
+    ofstream ofs(init_seq_path+"expect_mic.out");
     while(init_seq.size()<expect_len || mic_num>0){
         if(init_seq.size()>m_index){
             string motif = motifs[m_num];
             int repeat_num = (min_mic_len+rand()%(max_mic_len-min_mic_len))/motif.size();
-            cout<<"index: "<<init_seq.size()<<endl<<"motif: "<<motif<<endl<<"repeat_num: "<<repeat_num<<endl;
+            ofs<<"index: "<<init_seq.size()<<endl<<"motif: "<<motif<<endl<<"repeat_num: "<<repeat_num<<endl;
             for(int i=0;i<repeat_num;++i){
                 init_seq += motif;
             }
@@ -37,6 +40,9 @@ void create_init_seq(string& init_seq){
         int temp = rand()%4;
         init_seq += bases[temp];
     }
+    ofs<<"seq_size: "<<init_seq.size()<<endl;
+    ofs.close();
+    ofs.clear();
 } 
 
 
@@ -84,20 +90,26 @@ int main(){
     create_init_seq(init_seq);
     get_long_substrings(init_seq,long_substrings);
     get_short_substrings(init_seq,short_substrings);
-    cout<<"seq size: "<<init_seq.size()<<endl;
-    ofstream ofs("init_seq.out");
+    ofstream ofs(init_seq_path+"init_seq.fasta");
+    ofs<<">init_seq"<<endl;
     ofs<<init_seq;
     ofs.close();
     ofs.clear();
-    ofs.open("short_sub_seq.out");
+    ofs.open(short_sub_seq_path+"short_sub_seq.fasta");
+    int number = 1;
     for(auto &str:short_substrings){
+        ofs<<(">Sread"+to_string(number))<<endl;
         ofs<<str<<endl;
+        number++;
     }
     ofs.close();
     ofs.clear();
-    ofs.open("long_sub_seq.out");
+    number = 1;
+    ofs.open(long_sub_seq_path+"long_sub_seq.fasta");
     for(auto &str:long_substrings){
+        ofs<<(">Lread"+to_string(number))<<endl;
         ofs<<str<<endl;
+        number++;
     }
     ofs.close();
     ofs.clear();
